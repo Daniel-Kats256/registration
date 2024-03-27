@@ -1,0 +1,166 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    /* width: 100%; */
+    background-color: lightblue;
+    align-items: center;
+    
+}
+legend{
+    font-weight: bolder;
+}
+p{
+    color: red;
+}
+form fieldset input{
+    width: 300px;
+    height: 15px;
+}
+form fieldset > div label {
+    margin-right: 15px;
+}
+form fieldset{
+    margin: 20px;
+}
+form fieldset > div{
+    display: flex;
+    margin: 20px;
+}
+form fieldset > div > div{
+    width: 200px;
+}
+form fieldset > div > div input, select{
+    width: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.button, .final{
+    display: flex;
+}
+.final{
+    width: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+button{
+    background-color:lightcyan;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button > div:nth-child(2), .button .next, .final .next{
+    margin-left: auto;
+}
+.login > div{
+    width: 150%;
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 7px gray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.login > div > div{
+    margin: 10px;
+    display: flex;
+}
+.login > div > div > label{
+    margin-right: 10px;
+}
+.logo, .logo_dash{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(47, 255, 6);
+}
+.login .logo{
+    position: absolute;
+    top: 40px;
+}
+.container{
+    display: flex;
+    height: 90%;
+}
+.container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.container .right{
+    width: 70%;
+}
+.container .left{
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 10px gray;
+    padding: 20px;
+    margin: 15px;
+}
+ h2{
+    text-align: center;
+}
+.container .left nav {
+    display: flex;
+}
+.container .left nav div{
+   margin: 10px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 130px;
+   height: 30px;
+   border-radius: 15px;
+}
+.container .left nav div:hover, button:hover{
+    background-color: navajowhite;
+}
+.container .left nav div a{
+    text-decoration: none;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.title .logo{
+    height: 60px;
+    width: 60px;
+    margin: 7px;
+}
+
+.content_urban .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content_urban .form > div > div{
+    display: flex;
+}
+.content_urban .form > div > div p:nth-child(2){
+    margin-left: 10px;
+    font-weight: bold;
+}
+.content_urban .form > div{
+    margin: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
